@@ -7,6 +7,62 @@
     margin: 0px auto;     
 
 }
+.nav {
+    height: 63px;
+    background-color: #323232;
+}
+.slider {
+    
+    background-color: #ffffff;
+}
+.person {
+    background-color: #2eb398;
+    overflow: hidden;
+    
+}
+.person-border {
+    margin: 12px 100px;
+    border-left: 1px solid #219d84;
+    border-right: 1px solid #219d84;
+    overflow: hidden;
+}
+.person-container {
+    margin: 56px 20px;  
+    display: flex;   
+}
+.person-hexagon {
+    
+}
+.person-info {
+    margin-left: 20px;
+}
+.person-about p:nth-child(1) {
+
+    font-size: 30px;
+    color: #d7fcf5;
+    margin: 7px;
+    line-height: 4.56pt;
+}
+.person-about p:nth-child(2) {
+
+    font-size: 18px;
+    color: #20816d;
+    margin: 0px;
+    line-height: 21.56pt;
+}
+.person-about p:nth-child(3) {
+
+    font-family: Lato;
+    font-size: 12px;
+    color: #d7fcf5;
+    line-height: 16.55pt;
+}
+.person-social {    
+   float: right;    
+}
+.person-social a {
+    margin-left: -4px;
+}
 .footer-content{
     height: 609px;
 }
@@ -21,6 +77,7 @@ p, span {
 }
 .footer-content {
     background-color: #323232;
+    overflow: hidden;
 }
 .footer-center {
     display: flex;
