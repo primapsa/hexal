@@ -7,8 +7,17 @@
     margin: 0px auto;     
 
 }
+.footer-content{
+    height: 609px;
+}
 p, span {
     color: #e0e0e0;
+}
+.footer-border {
+    margin: 9px 30px;
+    padding-bottom: 54px;
+    border-top: 1px solid #2b2b2b;
+    border-bottom: 1px solid #2b2b2b;
 }
 .footer-content {
     background-color: #323232;
@@ -16,7 +25,7 @@ p, span {
 .footer-center {
     display: flex;
     flex-direction: row;
-    margin-left: 120px;
+    margin-left: 96px;
 	
 }
 .footer-copyrigth {
@@ -25,7 +34,8 @@ p, span {
     
 }
 .footer-top  {
-   margin-left: 120px;
+   margin-left: 98px;
+   margin-top: 48px;
 }
 .footer-top p {
     font-size: 30px;   
@@ -49,16 +59,15 @@ p, span {
     display: flex;
 	flex-direction: column;
 }
-.footer-left, .footer-right, .footer-top {
-    border: 2px solid red;
-}
+
+
 .footer-left input, textarea {
     box-sizing: border-box;
     width: 100%;
     resize: none;     
     color: #bebebe;
     background-color: #454545;
-    padding: 15px 0 15px 15px;
+    padding: 10px 0 15px 15px;
     margin-bottom: 15px;
     border: none;
 }
@@ -66,6 +75,7 @@ p, span {
     height: 150px;
 }
 .footer-right {
+    margin-top: 0; 
     width: 180px;
     margin-left: 20px;    
 }
@@ -94,5 +104,17 @@ p, span {
 .footer-contact li:nth-child(3){
     list-style-image: url(assets/images/mail.png);
 }
+button {
+    height: 38px;
+    width: 90px;
+    float: right;
+    background-color: #2eb398;
+    color: #cff2eb;
+    border: none;
+}
+
+
+
+  
 
 
